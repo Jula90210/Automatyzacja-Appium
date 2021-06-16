@@ -1,6 +1,6 @@
 # Automatyzacja przypadku testowego dla aplikacji mobilnej Android przy pomocy Appium #
 
-Celem projektu jest zautomatyzowanie wybranych przypadkow testowych dla aplikacji mobilnej Fitatu za pomoca emulatora urządzenia Samsung Galaxy S8 z Android 8.0. 
+Celem projektu jest zautomatyzowanie wybranych przypadkow testowych dla aplikacji mobilnej **Fitatu** za pomoca emulatora urządzenia Samsung Galaxy S8 z Android 8.0. 
 
 W aplikacji Fitatu znajdziemy miedzy innymi licznik kalorii, kalkulator wartości odżywczych, dziennik odżywiania, monitor utraty wagi, przypomnienia o piciu wody, proste zdrowe przepisy, wymienniki węglowodanowe.
 
