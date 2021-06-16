@@ -179,6 +179,72 @@ Goal Weight: „66”
 Poniżej pola edycji wzrostu użytkownika pojawia się czerwony komunikat: „120-219 cm”. Użytkownik nie przechodzi dalej.
 
 
+## **VII Przypadek testowy:** ##
+
+**ID:** 007
+
+**Tytuł:**  Sprawdzenie czy po wprowadzeniu poprawnych danych w zakładce „Weight loss” zostanie dodany posiłek do śniadania „# płatki owsiane górskie z biedronki (Plony Natury”)
+
+Plik: 07test_fitatu.py Klasa:Test7Appium Metoda:testAddMealToBreakfast
+
+**Kroki:**
+       
+1. Otwórz aplikację Fitatu.apk
+2. Zamknij komunikat „Intent Filter Verification Service has stopped”
+3. Wybierz z menu głównego „Utrata masy ciała”
+4. Wpisz poprawne dane:
+Gender:”Female”
+Date of birth: „04.07.1997”
+Height: „172”
+Current Body Weight: „76”
+Goal Weight: „66”
+5. Kliknij w opcje zaawansowane (Advanced settings (optional))
+6. Wybierz poziom aktywności w ciągu dnia (level of activity during the day) „Very low”
+7. Kliknij przycisk dalej: „Next” i przejdź do dodawania posiłków
+8. Przejdź do pola wyszukiwania posiłków: „Search for your meal”  wybierając przycisk dalej „Next”
+9. Dodaj pierwszy posiłek i wpisz w opcji wyszukiwania: „platki owsiane”
+10. Wybierz z listy : „# płatki owsiane górskie z biedronki (Plony Natury”)
+11. Przejdź do wyboru właściwej miary „Choose the right measure” klikając przycisk zrobione „Done”
+12. Wybierz miarę posiłku: „4xtablespoon”
+       
+
+## **II Oczekiwane rezultaty:** ##  
+W profilu użytkownika w zakładce „Breakfast” został dodany posiłek: „# płatki owsiane górskie z biedronki (Plony Natury)”.
+
+
+## **VIII Przypadek testowy:** ##
+
+**ID:** 008
+
+**Tytuł:**  Sprawdzenie czy w zakladce „Utrata masy ciała” przycisk przejścia do następnego ekranu jest w języku polskim („Dalej”)
+
+Plik: 08test_fitatu.py Klasa: Test8Appium metoda: testChooseLanguage
+
+
+**Kroki:**
+       
+Kroki:
+1. Otwórz aplikację Fitatu.apk
+2. Zamknij komunikat „Intent Filter Verification Service has stopped”
+3. Kliknij na ikonkę flagi w prawym górnym rogu
+4. Wybierz „Język polski”
+5. Kliknij wstecz androidowe i powróć do menu głównego
+6. Wejdź w zakładkę „Utrata masy ciała” i sprawdź czy przycisk przejścia do następnego ekranu jest w języku polskim („Dalej”)
+       
+
+## **II Oczekiwane rezultaty:** ##  
+Aplikacja działa w języku polskim i w zakladce „Utrata masy ciała” przycisk przejścia do następnego ekranu jest w języku polskim („Dalej”).
+
+
+
+
+
+
+
+
+
+
+
 
 
 
