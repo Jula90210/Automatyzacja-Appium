@@ -46,7 +46,6 @@ Logowanie użytkownika nie powiodło się. Użytkownik otrzymał komunikat:” L
 
 
 
-
 ## **II Przypadek testowy:** ##
 
 **ID:** 002
@@ -55,18 +54,19 @@ Logowanie użytkownika nie powiodło się. Użytkownik otrzymał komunikat:” L
 Plik: 02test_fitatu.py Klasa: Test2Appium Metoda: testCorrectEmail
 
 **Kroki:**
-       1. Otwórz aplikację Fitatu.apk
-       2. Zamknij komunikat „Intent Filter Verification Service has stopped”
-       3. Wybierz z menu głównego przycisk logowania „Log in”
-       4. Kliknij ponownie przycisk „Log in”
-       5. Wpisz poprawny adres mailowy: „tester.123@wp.pl”
-       6. Wpisz hasło: „Testy123”
-       7. Kliknij przycisk „Log in”
-       8. Kliknij wstecz androidowe i przejdź do strony dodawania posiłków
-       9. Wybierz przycisk „More”
-       10. Sprawdź czy pod przyciskiem „Log out” znajduje się login: „tester.123@wp.pl”
+1. Otwórz aplikację Fitatu.apk
+2. Zamknij komunikat „Intent Filter Verification Service has stopped”
+3. Wybierz z menu głównego przycisk logowania „Log in”
+4. Kliknij ponownie przycisk „Log in”
+5. Wpisz poprawny adres mailowy: „tester.123@wp.pl”
+6. Wpisz hasło: „Testy123”
+7. Kliknij przycisk „Log in”
+8. Kliknij wstecz androidowe i przejdź do strony dodawania posiłków
+9. Wybierz przycisk „More”
+10. Sprawdź czy pod przyciskiem „Log out” znajduje się login: „tester.123@wp.pl”
 
-## **II Oczekiwane rezultaty:** ##  Logowanie przebiega pomyślnie. Użytkownik loguje się do aplikacji. Pod przyciskiem „Log out” znajduje się login użytkownika:”tester.123@wp.pl”
+## **II Oczekiwane rezultaty:** ##  
+Logowanie przebiega pomyślnie. Użytkownik loguje się do aplikacji. Pod przyciskiem „Log out” znajduje się login użytkownika:”tester.123@wp.pl”.
 
 
 
@@ -74,25 +74,27 @@ Plik: 02test_fitatu.py Klasa: Test2Appium Metoda: testCorrectEmail
 
 **ID:** 003
 
-**Tytuł:**  PUzupełnienie danych w zakładce „Weight loss”  podając niepoprawną datę urodzenia(31.02.1997)
+**Tytuł:**  Uzupełnienie danych w zakładce „Weight loss”  podając niepoprawną datę urodzenia(31.02.1997)
+
 Plik: 03test_fitatu.py Klasa: Test3Appium Metoda: testInCorrectDateOfBirth
 
 **Kroki:**
-       1. Otwórz aplikację Fitatu.apk
-       2. Zamknij komunikat „Intent Filter Verification Service has stopped”
-       3. Wybierz z menu głównego „Weight loss”
-       4. Wpisz następujące dane:
-       Gender:”Female”
-       Date of birth: „31.02.1997”
-       Height: „172”
-       Current Body Weight: „76”
-       Goal Weight: „66”
-	5. Kliknij w opcje zaawansowane (Advanced settings (optional))
-	6. Wybierz poziom aktywności w ciągu dnia (level of activity during the day): „Very low”
-       7. Kliknij przycisk dalej „Next”
+1. Otwórz aplikację Fitatu.apk
+2. Zamknij komunikat „Intent Filter Verification Service has stopped”
+3. Wybierz z menu głównego „Weight loss”
+4. Wpisz następujące dane:
+Gender:”Female”
+Date of birth: „31.02.1997”
+Height: „172”
+Current Body Weight: „76”
+Goal Weight: „66
+5. Kliknij w opcje zaawansowane (Advanced settings (optional))
+6. Wybierz poziom aktywności w ciągu dnia (level of activity during the day): „Very low”
+7. Kliknij przycisk dalej „Next”
        
 
-## **II Oczekiwane rezultaty:** ##  Pod polem z datą urodzenia pojawia się czerwony komunikat: „Date of birth is incorrect”. Użytkownik nie może przejść dalej
+## **II Oczekiwane rezultaty:** ##  
+Pod polem z datą urodzenia pojawia się czerwony komunikat: „Date of birth is incorrect”. Użytkownik nie może przejść dalej.
  
 
 
