@@ -95,7 +95,90 @@ Goal Weight: „66
 
 ## **II Oczekiwane rezultaty:** ##  
 Pod polem z datą urodzenia pojawia się czerwony komunikat: „Date of birth is incorrect”. Użytkownik nie może przejść dalej.
+
+
+## **IV Przypadek testowy:** ##
+
+**ID:** 004
+
+**Tytuł:**  Sprawdzenie czy użytkownik poniżej 16 roku życia może wypełnić dane w zakładce „Weight loss”
+
+Plik: 04test_fitatu.py Klasa:Test4Appium Metoda: testDateOfBirthBelow16yo
+
+**Kroki:**
+1. Otwórz aplikację Fitatu.apk
+2. Zamknij komunikat „Intent Filter Verification Service has stopped”
+3. Wybierz z menu głównego „Utrata masy ciała”
+4. Uzupełnij dane:
+Gender:”Female”
+Date of birth: „31.01.2010”
+Height: „172”
+Current Body Weight: „76”
+Goal Weight: „66”
+5. Kliknij w opcje zaawansowane (Advanced settings (optional))
+6. Wybierz poziom aktywności w ciągu dnia (level of activity during the day): „Very low”
+7. Kliknij przycisk dalej „Next”
+       
+
+## **II Oczekiwane rezultaty:** ##  
+Pod polem do wprowadzania daty urodzenia pojawia się czerwony komunikat: „You must be at least 16 years old.” Użytkownik nie przechodzi dalej. 
+
  
+
+## **V Przypadek testowy:** ##
+
+**ID:** 005
+
+**Tytuł:**  Sprawdzenie zakresu wzrostu użytkownika (niższego niż 120 cm)
+
+Plik: 05test_fitatu.py Klasa:Test5Appium Metoda: testHeightLowerThan120cm
+
+**Kroki:**
+1. Otwórz aplikację Fitatu.apk
+2. Zamknij komunikat „Intent Filter Verification Service has stopped”
+3. Wybierz z menu głównego „Weight loss”
+4. Uzupełnij dane:
+Gender:”Female”
+Date of birth: „31.01.2005”
+Height: „119”
+Current Body Weight: „76”
+Goal Weight: „66”
+5. Kliknij w opcje zaawansowane (Advanced settings (optional))
+6. Wybierz poziom aktywności w ciągu dnia (level of activity during the day): „Very low”
+7. Kliknij przycisk dalej: „Next”
+       
+
+## **II Oczekiwane rezultaty:** ##  
+Poniżej pola edycji wzrostu użytkownika pojawia się czerwony komunikat: „120-219 cm”. Użytkownik nie przechodzi dalej.
+
+
+## **VI Przypadek testowy:** ##
+
+**ID:** 006
+
+**Tytuł:**  Sprawdzenie zakresów wzrostu użytkownika (wyższego niż 219 cm)
+
+Plik: 06test_fitatu.py Klasa:Test6Appium Metoda: testHeightHigherThan219cm
+
+**Kroki:**
+1. Otwórz aplikację Fitatu.apk
+2. Zamknij komunikat „Intent Filter Verification Service has stopped”
+3. Wybierz z menu głównego „Weight loss”
+4. Uzupełnij dane:
+Gender:”Female”
+Date of birth: „31.01.2005”
+Height: „220”
+Current Body Weight: „76”
+Goal Weight: „66”
+5. Kliknij w opcje zaawansowane (Advanced settings (optional))
+6. Wybierz poziom aktywności w ciągu dnia (level of activity during the day): „Very low”
+7. Kliknij przycisk dalej: „Next”
+       
+
+## **II Oczekiwane rezultaty:** ##  
+Poniżej pola edycji wzrostu użytkownika pojawia się czerwony komunikat: „120-219 cm”. Użytkownik nie przechodzi dalej.
+
+
 
 
 
