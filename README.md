@@ -93,7 +93,7 @@ Goal Weight: „66
 7. Kliknij przycisk dalej „Next”
        
 
-## **II Oczekiwane rezultaty:** ##  
+## **III Oczekiwane rezultaty:** ##  
 Pod polem z datą urodzenia pojawia się czerwony komunikat: „Date of birth is incorrect”. Użytkownik nie może przejść dalej.
 
 
@@ -120,7 +120,7 @@ Goal Weight: „66”
 7. Kliknij przycisk dalej „Next”
        
 
-## **II Oczekiwane rezultaty:** ##  
+## **IV Oczekiwane rezultaty:** ##  
 Pod polem do wprowadzania daty urodzenia pojawia się czerwony komunikat: „You must be at least 16 years old.” Użytkownik nie przechodzi dalej. 
 
  
@@ -148,7 +148,7 @@ Goal Weight: „66”
 7. Kliknij przycisk dalej: „Next”
        
 
-## **II Oczekiwane rezultaty:** ##  
+## **V Oczekiwane rezultaty:** ##  
 Poniżej pola edycji wzrostu użytkownika pojawia się czerwony komunikat: „120-219 cm”. Użytkownik nie przechodzi dalej.
 
 
@@ -175,7 +175,7 @@ Goal Weight: „66”
 7. Kliknij przycisk dalej: „Next”
        
 
-## **II Oczekiwane rezultaty:** ##  
+## **VI Oczekiwane rezultaty:** ##  
 Poniżej pola edycji wzrostu użytkownika pojawia się czerwony komunikat: „120-219 cm”. Użytkownik nie przechodzi dalej.
 
 
@@ -208,7 +208,7 @@ Goal Weight: „66”
 12. Wybierz miarę posiłku: „4xtablespoon”
        
 
-## **II Oczekiwane rezultaty:** ##  
+## **VII Oczekiwane rezultaty:** ##  
 W profilu użytkownika w zakładce „Breakfast” został dodany posiłek: „# płatki owsiane górskie z biedronki (Plony Natury)”.
 
 
@@ -232,7 +232,7 @@ Kroki:
 6. Wejdź w zakładkę „Utrata masy ciała” i sprawdź czy przycisk przejścia do następnego ekranu jest w języku polskim („Dalej”)
        
 
-## **II Oczekiwane rezultaty:** ##  
+## **VIII Oczekiwane rezultaty:** ##  
 Aplikacja działa w języku polskim i w zakladce „Utrata masy ciała” przycisk przejścia do następnego ekranu jest w języku polskim („Dalej”).
 
 
