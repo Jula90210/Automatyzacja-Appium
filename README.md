@@ -44,7 +44,8 @@ Plik: 01test_fitatu.py Klasa: Test1Appium Metoda: testIncorrectEmail
 ## **II Oczekiwane rezultaty:** ##  
 Logowanie użytkownika nie powiodło się. Użytkownik otrzymał komunikat:” Login error” „Incorrect email address or/and password.”
 
-
+<p align="center">
+    <img src="https://github.com/Jula90210/Automatyzacja-Appium/blob/master/01fitatu.png" width="900" />
 
 ## **II Przypadek testowy:** ##
 
