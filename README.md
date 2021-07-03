@@ -1,4 +1,4 @@
-# Automatyzacja przypadku testowego dla aplikacji mobilnej Android przy pomocy Appium #
+# Automatyzacja przypadków testowych dla aplikacji mobilnej Android "Fitatu" przy pomocy Appium #
 
 Celem projektu jest zautomatyzowanie wybranych przypadkow testowych dla aplikacji mobilnej **Fitatu** za pomoca emulatora urządzenia Samsung Galaxy S8 z Android 8.0. 
 
@@ -41,10 +41,11 @@ Plik: 01test_fitatu.py Klasa: Test1Appium Metoda: testIncorrectEmail
 6. Wpisz hasło: „Testy123”
 7. Kliknij przycisk „Log in”
 
-## **II Oczekiwane rezultaty:** ##  
+## **I Oczekiwane rezultaty:** ##  
 Logowanie użytkownika nie powiodło się. Użytkownik otrzymał komunikat:” Login error” „Incorrect email address or/and password.”
 
-
+<p align="center">
+    <img src="https://github.com/Jula90210/Automatyzacja-Appium/blob/master/01fitatu.png" width="900" />
 
 ## **II Przypadek testowy:** ##
 
@@ -68,7 +69,8 @@ Plik: 02test_fitatu.py Klasa: Test2Appium Metoda: testCorrectEmail
 ## **II Oczekiwane rezultaty:** ##  
 Logowanie przebiega pomyślnie. Użytkownik loguje się do aplikacji. Pod przyciskiem „Log out” znajduje się login użytkownika:”tester.123@wp.pl”.
 
-
+<p align="center">
+    <img src="https://github.com/Jula90210/Automatyzacja-Appium/blob/master/02fitatu.png" width="900" />
 
 ## **III Przypadek testowy:** ##
 
@@ -96,6 +98,8 @@ Goal Weight: „66
 ## **III Oczekiwane rezultaty:** ##  
 Pod polem z datą urodzenia pojawia się czerwony komunikat: „Date of birth is incorrect”. Użytkownik nie może przejść dalej.
 
+<p align="center">
+    <img src="https://github.com/Jula90210/Automatyzacja-Appium/blob/master/03fitatu.png" width="900" />
 
 ## **IV Przypadek testowy:** ##
 
@@ -123,7 +127,8 @@ Goal Weight: „66”
 ## **IV Oczekiwane rezultaty:** ##  
 Pod polem do wprowadzania daty urodzenia pojawia się czerwony komunikat: „You must be at least 16 years old.” Użytkownik nie przechodzi dalej. 
 
- 
+<p align="center">
+    <img src="https://github.com/Jula90210/Automatyzacja-Appium/blob/master/04fitatu.png" width="900" />
 
 ## **V Przypadek testowy:** ##
 
@@ -151,7 +156,9 @@ Goal Weight: „66”
 ## **V Oczekiwane rezultaty:** ##  
 Poniżej pola edycji wzrostu użytkownika pojawia się czerwony komunikat: „120-219 cm”. Użytkownik nie przechodzi dalej.
 
-
+<p align="center">
+    <img src="https://github.com/Jula90210/Automatyzacja-Appium/blob/master/05fitatu.png" width="900" />
+    
 ## **VI Przypadek testowy:** ##
 
 **ID:** 006
@@ -178,6 +185,8 @@ Goal Weight: „66”
 ## **VI Oczekiwane rezultaty:** ##  
 Poniżej pola edycji wzrostu użytkownika pojawia się czerwony komunikat: „120-219 cm”. Użytkownik nie przechodzi dalej.
 
+<p align="center">
+    <img src="https://github.com/Jula90210/Automatyzacja-Appium/blob/master/06fitatu.png" width="900" />
 
 ## **VII Przypadek testowy:** ##
 
@@ -211,6 +220,8 @@ Goal Weight: „66”
 ## **VII Oczekiwane rezultaty:** ##  
 W profilu użytkownika w zakładce „Breakfast” został dodany posiłek: „# płatki owsiane górskie z biedronki (Plony Natury)”.
 
+<p align="center">
+    <img src="https://github.com/Jula90210/Automatyzacja-Appium/blob/master/07fitatu.png" width="900" />
 
 ## **VIII Przypadek testowy:** ##
 
@@ -235,7 +246,8 @@ Kroki:
 ## **VIII Oczekiwane rezultaty:** ##  
 Aplikacja działa w języku polskim i w zakladce „Utrata masy ciała” przycisk przejścia do następnego ekranu jest w języku polskim („Dalej”).
 
-
+<p align="center">
+    <img src="https://github.com/Jula90210/Automatyzacja-Appium/blob/master/08fitatu.png" width="900" />
 
 
 
